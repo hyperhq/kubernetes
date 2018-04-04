@@ -29,7 +29,7 @@ import (
 	"k8s.io/apiserver/pkg/storage/storagebackend"
 	utilconfig "k8s.io/apiserver/pkg/util/flag"
 	auditwebhook "k8s.io/apiserver/plugin/pkg/audit/webhook"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	kapi "k8s.io/kubernetes/pkg/apis/core"
 	kubeoptions "k8s.io/kubernetes/pkg/kubeapiserver/options"

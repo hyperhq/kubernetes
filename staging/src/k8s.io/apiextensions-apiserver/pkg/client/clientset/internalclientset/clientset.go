@@ -19,9 +19,9 @@ package internalclientset
 import (
 	glog "github.com/golang/glog"
 	apiextensionsinternalversion "k8s.io/apiextensions-apiserver/pkg/client/clientset/internalclientset/typed/apiextensions/internalversion"
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/hyperhq/client-go/discovery"
+	rest "github.com/hyperhq/client-go/rest"
+	flowcontrol "github.com/hyperhq/client-go/util/flowcontrol"
 )
 
 type Interface interface {

@@ -35,8 +35,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/types"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	core "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/record"
+	core "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/record"
 	// TODO: remove this import if
 	// api.Registry.GroupOrDie(v1.GroupName).GroupVersion.String() is changed
 	// to "v1"?

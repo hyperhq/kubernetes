@@ -18,8 +18,8 @@ package fake
 
 import (
 	v1beta1 "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	rest "github.com/hyperhq/client-go/rest"
+	testing "github.com/hyperhq/client-go/testing"
 )
 
 type FakeApiextensionsV1beta1 struct {

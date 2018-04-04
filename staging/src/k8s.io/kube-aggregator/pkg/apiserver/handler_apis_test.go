@@ -28,7 +28,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apiserver/pkg/endpoints/request"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 
 	"k8s.io/kube-aggregator/pkg/apis/apiregistration"
 	listers "k8s.io/kube-aggregator/pkg/client/listers/apiregistration/internalversion"

@@ -23,8 +23,8 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
 	api "k8s.io/kubernetes/pkg/apis/core"
 )
 

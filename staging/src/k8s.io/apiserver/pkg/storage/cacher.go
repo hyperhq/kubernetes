@@ -40,7 +40,7 @@ import (
 	"k8s.io/apiserver/pkg/features"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
 	utiltrace "k8s.io/apiserver/pkg/util/trace"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 // CacherConfig contains the configuration for a given Cache.

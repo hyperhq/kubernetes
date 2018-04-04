@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/tools/record"
+	"github.com/hyperhq/client-go/tools/record"
 	cadvisortest "k8s.io/kubernetes/pkg/kubelet/cadvisor/testing"
 )
 

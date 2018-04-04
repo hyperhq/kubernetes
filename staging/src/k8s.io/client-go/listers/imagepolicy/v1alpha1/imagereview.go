@@ -22,7 +22,7 @@ import (
 	v1alpha1 "k8s.io/api/imagepolicy/v1alpha1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 // ImageReviewLister helps list ImageReviews.

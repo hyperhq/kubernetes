@@ -28,8 +28,8 @@ import (
 
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
 )
 

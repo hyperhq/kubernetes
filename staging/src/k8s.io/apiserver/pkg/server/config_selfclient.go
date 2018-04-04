@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net"
 
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 )
 
 // LoopbackClientServerNameOverride is passed to the apiserver from the loopback client in order to

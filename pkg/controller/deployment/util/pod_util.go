@@ -21,9 +21,9 @@ import (
 
 	"k8s.io/api/core/v1"
 	errorsutil "k8s.io/apimachinery/pkg/util/errors"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
-	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/client-go/util/retry"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/util/retry"
 )
 
 // TODO: use client library instead when it starts to support update retries

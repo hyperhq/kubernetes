@@ -44,8 +44,8 @@ import (
 	"k8s.io/apiserver/pkg/admission/plugin/webhook/request"
 	"k8s.io/apiserver/pkg/admission/plugin/webhook/rules"
 	"k8s.io/apiserver/pkg/admission/plugin/webhook/versioned"
-	"k8s.io/client-go/informers"
-	clientset "k8s.io/client-go/kubernetes"
+	"github.com/hyperhq/client-go/informers"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 )
 
 const (

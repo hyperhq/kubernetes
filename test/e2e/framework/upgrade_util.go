@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/version"
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 )
 
 // RealVersion turns a version constants into a version string deployable on

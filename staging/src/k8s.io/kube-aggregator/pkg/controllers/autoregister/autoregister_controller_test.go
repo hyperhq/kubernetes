@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	clienttesting "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/util/workqueue"
+	clienttesting "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kube-aggregator/pkg/apis/apiregistration"
 	"k8s.io/kube-aggregator/pkg/client/clientset_generated/internalclientset/fake"
 	listers "k8s.io/kube-aggregator/pkg/client/listers/apiregistration/internalversion"

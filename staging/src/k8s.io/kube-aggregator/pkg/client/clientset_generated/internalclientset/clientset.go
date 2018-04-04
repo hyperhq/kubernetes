@@ -18,9 +18,9 @@ package internalclientset
 
 import (
 	glog "github.com/golang/glog"
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/hyperhq/client-go/discovery"
+	rest "github.com/hyperhq/client-go/rest"
+	flowcontrol "github.com/hyperhq/client-go/util/flowcontrol"
 	apiregistrationinternalversion "k8s.io/kube-aggregator/pkg/client/clientset_generated/internalclientset/typed/apiregistration/internalversion"
 )
 

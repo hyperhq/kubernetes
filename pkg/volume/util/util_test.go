@@ -24,7 +24,7 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
-	utiltesting "k8s.io/client-go/util/testing"
+	utiltesting "github.com/hyperhq/client-go/util/testing"
 	// util.go uses api.Codecs.LegacyCodec so import this package to do some
 	// resource initialization.
 	_ "k8s.io/kubernetes/pkg/apis/core/install"

@@ -34,8 +34,8 @@ import (
 	auditv1beta1 "k8s.io/apiserver/pkg/apis/audit/v1beta1"
 	"k8s.io/apiserver/pkg/audit"
 	"k8s.io/apiserver/pkg/util/webhook"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 )
 
 const (

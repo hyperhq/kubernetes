@@ -29,8 +29,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/storage/storagebackend"
-	"k8s.io/client-go/kubernetes"
-	restclient "k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/kubernetes"
+	restclient "github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/cmd/kube-apiserver/app"
 	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
 )

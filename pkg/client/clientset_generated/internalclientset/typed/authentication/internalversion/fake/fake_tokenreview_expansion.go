@@ -17,7 +17,7 @@ limitations under the License.
 package fake
 
 import (
-	core "k8s.io/client-go/testing"
+	core "github.com/hyperhq/client-go/testing"
 	authenticationapi "k8s.io/kubernetes/pkg/apis/authentication"
 )
 

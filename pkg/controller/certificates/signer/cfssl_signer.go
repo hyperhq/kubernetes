@@ -26,8 +26,8 @@ import (
 	"time"
 
 	capi "k8s.io/api/certificates/v1beta1"
-	certificatesinformers "k8s.io/client-go/informers/certificates/v1beta1"
-	clientset "k8s.io/client-go/kubernetes"
+	certificatesinformers "github.com/hyperhq/client-go/informers/certificates/v1beta1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 	"k8s.io/kubernetes/pkg/controller/certificates"
 
 	"github.com/cloudflare/cfssl/config"

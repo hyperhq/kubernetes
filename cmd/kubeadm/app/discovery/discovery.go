@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/url"
 
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
 	"k8s.io/kubernetes/cmd/kubeadm/app/discovery/file"
 	"k8s.io/kubernetes/cmd/kubeadm/app/discovery/https"

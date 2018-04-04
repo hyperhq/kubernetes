@@ -23,8 +23,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	clientset "k8s.io/client-go/kubernetes"
-	coreclient "k8s.io/client-go/kubernetes/typed/core/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	coreclient "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 )
 
 func DeletePodOrErrorf(t *testing.T, c clientset.Interface, ns, name string) {

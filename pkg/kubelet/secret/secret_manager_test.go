@@ -25,13 +25,13 @@ import (
 	"time"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/kubernetes/fake"
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/clock"
-	core "k8s.io/client-go/testing"
+	core "github.com/hyperhq/client-go/testing"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -39,8 +39,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/kubernetes"
-	restclient "k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/kubernetes"
+	restclient "github.com/hyperhq/client-go/rest"
 
 	"k8s.io/kubernetes/pkg/kubectl"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/templates"

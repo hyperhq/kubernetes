@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 
 	"github.com/golang/glog"
 	"k8s.io/api/core/v1"

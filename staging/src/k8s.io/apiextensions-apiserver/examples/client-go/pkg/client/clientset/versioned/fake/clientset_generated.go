@@ -22,9 +22,9 @@ import (
 	fakecrv1 "k8s.io/apiextensions-apiserver/examples/client-go/pkg/client/clientset/versioned/typed/cr/v1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/discovery"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/discovery"
+	fakediscovery "github.com/hyperhq/client-go/discovery/fake"
+	"github.com/hyperhq/client-go/testing"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

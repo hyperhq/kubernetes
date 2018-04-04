@@ -33,7 +33,7 @@ root:
 package example
 
 import (
-  "k8s.io/client-go/dynamic" // resolves to staging/src/k8s.io/client-go/dynamic
+  "github.com/hyperhq/client-go/dynamic" // resolves to staging/src/k8s.io/client-go/dynamic
 )
 ```
 

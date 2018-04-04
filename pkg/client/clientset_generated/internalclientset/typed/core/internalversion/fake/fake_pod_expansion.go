@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	restclient "k8s.io/client-go/rest"
-	core "k8s.io/client-go/testing"
+	restclient "github.com/hyperhq/client-go/rest"
+	core "github.com/hyperhq/client-go/testing"
 	api "k8s.io/kubernetes/pkg/apis/core"
 )
 

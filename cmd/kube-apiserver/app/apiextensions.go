@@ -25,7 +25,7 @@ import (
 	apiextensionscmd "k8s.io/apiextensions-apiserver/pkg/cmd/server"
 	genericapiserver "k8s.io/apiserver/pkg/server"
 	genericoptions "k8s.io/apiserver/pkg/server/options"
-	kubeexternalinformers "k8s.io/client-go/informers"
+	kubeexternalinformers "github.com/hyperhq/client-go/informers"
 	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
 )
 

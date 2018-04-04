@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/util/jsonpath"
+	"github.com/hyperhq/client-go/util/jsonpath"
 )
 
 // exists returns true if it would be possible to call the index function

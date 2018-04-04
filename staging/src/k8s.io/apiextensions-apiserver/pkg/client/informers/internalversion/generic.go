@@ -22,7 +22,7 @@ import (
 	"fmt"
 	apiextensions "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 )
 
 // GenericInformer is type of SharedIndexInformer which will locate and delegate to other

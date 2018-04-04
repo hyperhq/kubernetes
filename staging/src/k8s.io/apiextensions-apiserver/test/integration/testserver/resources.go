@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/client-go/dynamic"
+	"github.com/hyperhq/client-go/dynamic"
 )
 
 const (

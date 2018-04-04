@@ -25,7 +25,7 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 )
 
 // PluginDescriptorFilename is the default file name for plugin descriptions.

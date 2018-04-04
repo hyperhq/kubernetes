@@ -31,7 +31,7 @@ import (
 	"k8s.io/api/imagepolicy/v1alpha1"
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/client-go/tools/clientcmd/api/v1"
+	"github.com/hyperhq/client-go/tools/clientcmd/api/v1"
 	api "k8s.io/kubernetes/pkg/apis/core"
 
 	"fmt"

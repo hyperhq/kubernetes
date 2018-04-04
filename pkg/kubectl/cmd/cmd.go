@@ -21,7 +21,7 @@ import (
 	"io"
 
 	"k8s.io/apiserver/pkg/util/flag"
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/auth"
 	cmdconfig "k8s.io/kubernetes/pkg/kubectl/cmd/config"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/resource"

@@ -22,7 +22,7 @@ import (
 	apiextensions "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 // CustomResourceDefinitionLister helps list CustomResourceDefinitions.

@@ -31,7 +31,7 @@ import (
 	genericfilters "k8s.io/apiserver/pkg/server/filters"
 	"k8s.io/apiserver/pkg/server/options"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/rest"
 )
 
 // InsecureServingInfo is required to serve http.  HTTP does NOT include authentication or authorization.

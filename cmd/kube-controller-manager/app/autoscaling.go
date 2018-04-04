@@ -23,10 +23,10 @@ package app
 import (
 	apimeta "k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/discovery"
-	discocache "k8s.io/client-go/discovery/cached" // Saturday Night Fever
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/scale"
+	"github.com/hyperhq/client-go/discovery"
+	discocache "github.com/hyperhq/client-go/discovery/cached" // Saturday Night Fever
+	"github.com/hyperhq/client-go/dynamic"
+	"github.com/hyperhq/client-go/scale"
 	"k8s.io/kubernetes/pkg/controller/podautoscaler"
 	"k8s.io/kubernetes/pkg/controller/podautoscaler/metrics"
 	resourceclient "k8s.io/metrics/pkg/client/clientset_generated/clientset/typed/metrics/v1beta1"

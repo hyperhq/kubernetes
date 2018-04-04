@@ -24,7 +24,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
+	corev1 "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 	"k8s.io/kubernetes/pkg/apis/core/validation"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
 )

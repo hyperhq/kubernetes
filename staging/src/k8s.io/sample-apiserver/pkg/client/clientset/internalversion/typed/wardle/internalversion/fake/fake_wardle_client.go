@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	rest "github.com/hyperhq/client-go/rest"
+	testing "github.com/hyperhq/client-go/testing"
 	internalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion/typed/wardle/internalversion"
 )
 

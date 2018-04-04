@@ -29,10 +29,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/discovery"
-	fakedisco "k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/dynamic"
-	fakerest "k8s.io/client-go/rest/fake"
+	"github.com/hyperhq/client-go/discovery"
+	fakedisco "github.com/hyperhq/client-go/discovery/fake"
+	"github.com/hyperhq/client-go/dynamic"
+	fakerest "github.com/hyperhq/client-go/rest/fake"
 
 	"github.com/stretchr/testify/assert"
 	appsv1beta1 "k8s.io/api/apps/v1beta1"
@@ -41,7 +41,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 	extv1beta1 "k8s.io/api/extensions/v1beta1"
 	apimeta "k8s.io/apimachinery/pkg/api/meta"
-	coretesting "k8s.io/client-go/testing"
+	coretesting "github.com/hyperhq/client-go/testing"
 )
 
 func bytesBody(bodyBytes []byte) io.ReadCloser {

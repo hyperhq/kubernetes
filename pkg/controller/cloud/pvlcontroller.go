@@ -34,10 +34,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
 
-	"k8s.io/client-go/kubernetes"
-	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/kubernetes"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/util/workqueue"
 
 	"k8s.io/kubernetes/pkg/cloudprovider"
 	"k8s.io/kubernetes/pkg/controller"

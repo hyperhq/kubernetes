@@ -22,7 +22,7 @@ import (
 	v1beta1 "k8s.io/api/authorization/v1beta1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 // LocalSubjectAccessReviewLister helps list LocalSubjectAccessReviews.

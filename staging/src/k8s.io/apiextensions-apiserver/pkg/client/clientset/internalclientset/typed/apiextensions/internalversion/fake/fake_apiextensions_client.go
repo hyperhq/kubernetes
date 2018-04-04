@@ -18,8 +18,8 @@ package fake
 
 import (
 	internalversion "k8s.io/apiextensions-apiserver/pkg/client/clientset/internalclientset/typed/apiextensions/internalversion"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	rest "github.com/hyperhq/client-go/rest"
+	testing "github.com/hyperhq/client-go/testing"
 )
 
 type FakeApiextensions struct {

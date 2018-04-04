@@ -24,9 +24,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	"github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 	"k8s.io/metrics/pkg/apis/custom_metrics/v1beta1"
 )
 

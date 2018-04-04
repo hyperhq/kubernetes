@@ -22,7 +22,7 @@ import (
 	"github.com/golang/glog"
 
 	"k8s.io/api/core/v1"
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 )
 
 // ClaimToClaimKey return namespace/name string for pvc

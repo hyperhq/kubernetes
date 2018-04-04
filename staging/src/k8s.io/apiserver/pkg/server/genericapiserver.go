@@ -43,7 +43,7 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/server/healthz"
 	"k8s.io/apiserver/pkg/server/routes"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 	openapicommon "k8s.io/kube-openapi/pkg/common"
 )
 

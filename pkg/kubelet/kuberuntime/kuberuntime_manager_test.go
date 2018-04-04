@@ -31,7 +31,7 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	kubetypes "k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 	"k8s.io/kubernetes/pkg/credentialprovider"
 	apitest "k8s.io/kubernetes/pkg/kubelet/apis/cri/testing"
 	runtimeapi "k8s.io/kubernetes/pkg/kubelet/apis/cri/v1alpha1/runtime"

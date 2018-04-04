@@ -32,9 +32,9 @@ import (
 	apiserverapi "k8s.io/apiserver/pkg/apis/apiserver"
 	apiserverapiv1alpha1 "k8s.io/apiserver/pkg/apis/apiserver/v1alpha1"
 	"k8s.io/apiserver/pkg/server"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/rest"
 )
 
 var configScheme = runtime.NewScheme()

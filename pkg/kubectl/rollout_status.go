@@ -22,9 +22,9 @@ import (
 	extensionsv1beta1 "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes"
-	clientappsv1beta1 "k8s.io/client-go/kubernetes/typed/apps/v1beta1"
-	clientextensionsv1beta1 "k8s.io/client-go/kubernetes/typed/extensions/v1beta1"
+	"github.com/hyperhq/client-go/kubernetes"
+	clientappsv1beta1 "github.com/hyperhq/client-go/kubernetes/typed/apps/v1beta1"
+	clientextensionsv1beta1 "github.com/hyperhq/client-go/kubernetes/typed/extensions/v1beta1"
 	"k8s.io/kubernetes/pkg/apis/apps"
 	"k8s.io/kubernetes/pkg/controller/deployment/util"
 )

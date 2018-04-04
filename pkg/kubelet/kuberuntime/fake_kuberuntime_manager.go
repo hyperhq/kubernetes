@@ -22,8 +22,8 @@ import (
 
 	cadvisorapi "github.com/google/cadvisor/info/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/client-go/tools/record"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/tools/record"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 	"k8s.io/kubernetes/pkg/credentialprovider"
 	internalapi "k8s.io/kubernetes/pkg/kubelet/apis/cri"
 	"k8s.io/kubernetes/pkg/kubelet/cm"

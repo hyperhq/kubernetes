@@ -38,8 +38,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/uuid"
 	"k8s.io/apimachinery/pkg/util/wait"
-	clientset "k8s.io/client-go/kubernetes"
-	coreclientset "k8s.io/client-go/kubernetes/typed/core/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	coreclientset "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 	"k8s.io/kubernetes/pkg/api/testapi"
 	imageutils "k8s.io/kubernetes/test/utils/image"
 )

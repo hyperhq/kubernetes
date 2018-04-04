@@ -23,7 +23,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
+	clientsetscheme "github.com/hyperhq/client-go/kubernetes/scheme"
 )
 
 // MarshalToYaml marshals an object into yaml.

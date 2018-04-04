@@ -107,7 +107,7 @@ func (g *genFakeForType) GenerateType(c *generator.Context, t *types.Type, w io.
 		groupName = override[0]
 	}
 
-	const pkgClientGoTesting = "k8s.io/client-go/testing"
+	const pkgClientGoTesting = "github.com/hyperhq/client-go/testing"
 	m := map[string]interface{}{
 		"type":                 t,
 		"inputType":            t,

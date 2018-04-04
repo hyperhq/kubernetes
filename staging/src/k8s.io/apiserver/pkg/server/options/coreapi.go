@@ -22,10 +22,10 @@ import (
 
 	"github.com/spf13/pflag"
 	"k8s.io/apiserver/pkg/server"
-	clientgoinformers "k8s.io/client-go/informers"
-	clientgoclientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
+	clientgoinformers "github.com/hyperhq/client-go/informers"
+	clientgoclientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 )
 
 // CoreAPIOptions contains options to configure the connection to a core API Kubernetes apiserver.

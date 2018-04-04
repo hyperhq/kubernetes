@@ -29,8 +29,8 @@ import (
 	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
 	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
 
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 
 	pkiutil "k8s.io/kubernetes/cmd/kubeadm/app/phases/certs/pkiutil"
 

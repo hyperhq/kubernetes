@@ -19,9 +19,9 @@ package fake
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/discovery"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/discovery"
+	fakediscovery "github.com/hyperhq/client-go/discovery/fake"
+	"github.com/hyperhq/client-go/testing"
 	clientset "k8s.io/sample-apiserver/pkg/client/clientset/internalversion"
 	wardleinternalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion/typed/wardle/internalversion"
 	fakewardleinternalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion/typed/wardle/internalversion/fake"

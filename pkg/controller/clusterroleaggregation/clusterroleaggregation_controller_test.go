@@ -24,10 +24,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
-	fakeclient "k8s.io/client-go/kubernetes/fake"
-	rbaclisters "k8s.io/client-go/listers/rbac/v1"
-	clienttesting "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/cache"
+	fakeclient "github.com/hyperhq/client-go/kubernetes/fake"
+	rbaclisters "github.com/hyperhq/client-go/listers/rbac/v1"
+	clienttesting "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/cache"
 	"k8s.io/kubernetes/pkg/controller"
 )
 

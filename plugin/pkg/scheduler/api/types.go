@@ -22,7 +22,7 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 )
 
 const (

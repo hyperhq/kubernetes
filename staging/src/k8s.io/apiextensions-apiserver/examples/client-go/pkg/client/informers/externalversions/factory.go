@@ -24,7 +24,7 @@ import (
 	internalinterfaces "k8s.io/apiextensions-apiserver/examples/client-go/pkg/client/informers/externalversions/internalinterfaces"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	reflect "reflect"
 	sync "sync"
 	time "time"

@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	"k8s.io/apiserver/pkg/admission"
-	clientset "k8s.io/client-go/kubernetes"
-	corelisters "k8s.io/client-go/listers/core/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
 )
 
 // Matcher decides if a request is exempted by the NamespaceSelector of a

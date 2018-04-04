@@ -32,9 +32,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/apiserver/pkg/admission/initializer"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes"
-	corelisters "k8s.io/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/kubernetes"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
 )
 
 const (

@@ -30,9 +30,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/remotecommand"
-	"k8s.io/client-go/transport/spdy"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/remotecommand"
+	"github.com/hyperhq/client-go/transport/spdy"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	runtimeapi "k8s.io/kubernetes/pkg/kubelet/apis/cri/v1alpha1/runtime"
 	kubeletportforward "k8s.io/kubernetes/pkg/kubelet/server/portforward"

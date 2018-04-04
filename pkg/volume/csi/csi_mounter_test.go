@@ -29,7 +29,7 @@ import (
 	storage "k8s.io/api/storage/v1alpha1"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	fakeclient "k8s.io/client-go/kubernetes/fake"
+	fakeclient "github.com/hyperhq/client-go/kubernetes/fake"
 	"k8s.io/kubernetes/pkg/volume"
 	"k8s.io/kubernetes/pkg/volume/csi/fake"
 	volumetest "k8s.io/kubernetes/pkg/volume/testing"

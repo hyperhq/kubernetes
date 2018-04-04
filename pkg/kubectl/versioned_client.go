@@ -17,8 +17,8 @@ limitations under the License.
 package kubectl
 
 import (
-	clientappsv1beta1 "k8s.io/client-go/kubernetes/typed/apps/v1beta1"
-	clientextensionsv1beta1 "k8s.io/client-go/kubernetes/typed/extensions/v1beta1"
+	clientappsv1beta1 "github.com/hyperhq/client-go/kubernetes/typed/apps/v1beta1"
+	clientextensionsv1beta1 "github.com/hyperhq/client-go/kubernetes/typed/extensions/v1beta1"
 	internalclientset "k8s.io/kubernetes/pkg/client/clientset_generated/internalclientset"
 )
 

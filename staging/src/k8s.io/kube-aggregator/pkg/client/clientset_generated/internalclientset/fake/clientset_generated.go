@@ -19,9 +19,9 @@ package fake
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/discovery"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/discovery"
+	fakediscovery "github.com/hyperhq/client-go/discovery/fake"
+	"github.com/hyperhq/client-go/testing"
 	clientset "k8s.io/kube-aggregator/pkg/client/clientset_generated/internalclientset"
 	apiregistrationinternalversion "k8s.io/kube-aggregator/pkg/client/clientset_generated/internalclientset/typed/apiregistration/internalversion"
 	fakeapiregistrationinternalversion "k8s.io/kube-aggregator/pkg/client/clientset_generated/internalclientset/typed/apiregistration/internalversion/fake"

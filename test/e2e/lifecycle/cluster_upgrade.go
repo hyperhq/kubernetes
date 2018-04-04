@@ -26,7 +26,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/client-go/discovery"
+	"github.com/hyperhq/client-go/discovery"
 	"k8s.io/kubernetes/pkg/util/version"
 	"k8s.io/kubernetes/test/e2e/chaosmonkey"
 	"k8s.io/kubernetes/test/e2e/framework"

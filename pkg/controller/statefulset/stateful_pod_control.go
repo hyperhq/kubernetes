@@ -25,11 +25,11 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	errorutils "k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	clientset "k8s.io/client-go/kubernetes"
-	appslisters "k8s.io/client-go/listers/apps/v1beta1"
-	corelisters "k8s.io/client-go/listers/core/v1"
-	"k8s.io/client-go/tools/record"
-	"k8s.io/client-go/util/retry"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	appslisters "github.com/hyperhq/client-go/listers/apps/v1beta1"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/tools/record"
+	"github.com/hyperhq/client-go/util/retry"
 )
 
 // StatefulPodControlInterface defines the interface that StatefulSetController uses to create, update, and delete Pods,

@@ -34,8 +34,8 @@ import (
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	genericfeatures "k8s.io/apiserver/pkg/features"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/transport"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/transport"
 	apiregistrationapi "k8s.io/kube-aggregator/pkg/apis/apiregistration"
 )
 

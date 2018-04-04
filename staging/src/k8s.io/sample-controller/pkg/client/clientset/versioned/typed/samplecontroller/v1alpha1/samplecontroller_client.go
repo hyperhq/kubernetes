@@ -18,7 +18,7 @@ package v1alpha1
 
 import (
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	rest "k8s.io/client-go/rest"
+	rest "github.com/hyperhq/client-go/rest"
 	v1alpha1 "k8s.io/sample-controller/pkg/apis/samplecontroller/v1alpha1"
 	"k8s.io/sample-controller/pkg/client/clientset/versioned/scheme"
 )

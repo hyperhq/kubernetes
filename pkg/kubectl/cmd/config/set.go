@@ -27,7 +27,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"k8s.io/apiserver/pkg/util/flag"
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 	"k8s.io/kubernetes/pkg/kubectl/cmd/templates"
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"
 	"k8s.io/kubernetes/pkg/kubectl/util/i18n"

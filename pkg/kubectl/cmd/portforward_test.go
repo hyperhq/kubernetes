@@ -26,7 +26,7 @@ import (
 	"github.com/spf13/cobra"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/rest/fake"
+	"github.com/hyperhq/client-go/rest/fake"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	cmdtesting "k8s.io/kubernetes/pkg/kubectl/cmd/testing"
 )

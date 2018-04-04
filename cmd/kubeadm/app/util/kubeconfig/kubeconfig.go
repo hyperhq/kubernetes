@@ -19,9 +19,9 @@ package kubeconfig
 import (
 	"fmt"
 
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 )
 
 // CreateBasic creates a basic, general KubeConfig object that then can be extended

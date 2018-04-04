@@ -21,10 +21,10 @@ import (
 
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/util/wait"
-	coreinformers "k8s.io/client-go/informers/core/v1"
-	storageinformers "k8s.io/client-go/informers/storage/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/util/workqueue"
+	coreinformers "github.com/hyperhq/client-go/informers/core/v1"
+	storageinformers "github.com/hyperhq/client-go/informers/storage/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/pkg/controller/volume/persistentvolume"
 )
 

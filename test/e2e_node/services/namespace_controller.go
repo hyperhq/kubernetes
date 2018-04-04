@@ -20,10 +20,10 @@ import (
 	"time"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/informers"
-	clientset "k8s.io/client-go/kubernetes"
-	restclient "k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/dynamic"
+	"github.com/hyperhq/client-go/informers"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	restclient "github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	namespacecontroller "k8s.io/kubernetes/pkg/controller/namespace"
 )

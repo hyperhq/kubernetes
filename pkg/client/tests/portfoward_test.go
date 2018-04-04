@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/types"
-	restclient "k8s.io/client-go/rest"
-	. "k8s.io/client-go/tools/portforward"
-	"k8s.io/client-go/transport/spdy"
+	restclient "github.com/hyperhq/client-go/rest"
+	. "github.com/hyperhq/client-go/tools/portforward"
+	"github.com/hyperhq/client-go/transport/spdy"
 	"k8s.io/kubernetes/pkg/kubelet/server/portforward"
 )
 

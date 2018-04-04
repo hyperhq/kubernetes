@@ -26,9 +26,9 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticatorfactory"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
 	"k8s.io/apiserver/pkg/authorization/authorizerfactory"
-	clientset "k8s.io/client-go/kubernetes"
-	authenticationclient "k8s.io/client-go/kubernetes/typed/authentication/v1beta1"
-	authorizationclient "k8s.io/client-go/kubernetes/typed/authorization/v1beta1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	authenticationclient "github.com/hyperhq/client-go/kubernetes/typed/authentication/v1beta1"
+	authorizationclient "github.com/hyperhq/client-go/kubernetes/typed/authorization/v1beta1"
 
 	"k8s.io/kubernetes/pkg/kubelet/apis/kubeletconfig"
 	"k8s.io/kubernetes/pkg/kubelet/server"

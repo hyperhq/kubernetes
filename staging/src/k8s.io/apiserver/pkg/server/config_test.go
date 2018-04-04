@@ -28,9 +28,9 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	genericapirequest "k8s.io/apiserver/pkg/endpoints/request"
 	"k8s.io/apiserver/pkg/server/healthz"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/rest"
 )
 
 func TestNewWithDelegate(t *testing.T) {

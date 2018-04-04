@@ -24,8 +24,8 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	bootstrapapi "k8s.io/kubernetes/pkg/bootstrap/api"
 )

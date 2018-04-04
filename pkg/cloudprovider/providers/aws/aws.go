@@ -42,8 +42,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/record"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/tools/record"
 
 	"path"
 
@@ -53,8 +53,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/kubernetes/scheme"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 	"k8s.io/kubernetes/pkg/api/v1/service"
 	"k8s.io/kubernetes/pkg/cloudprovider"
 	"k8s.io/kubernetes/pkg/controller"

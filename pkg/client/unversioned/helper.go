@@ -18,10 +18,10 @@ package unversioned
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	// Import solely to initialize client auth plugins.
-	_ "k8s.io/client-go/plugin/pkg/client/auth"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth"
 )
 
 const (

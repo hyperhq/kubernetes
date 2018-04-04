@@ -23,7 +23,7 @@ import (
 
 	rbac "k8s.io/api/rbac/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	core "k8s.io/client-go/testing"
+	core "github.com/hyperhq/client-go/testing"
 )
 
 func TestHandleGetAction(t *testing.T) {

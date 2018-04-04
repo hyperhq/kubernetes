@@ -24,13 +24,13 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
 
-	core "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/tools/record"
+	core "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/record"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/kubernetes/fake"
-	corelisters "k8s.io/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
 	_ "k8s.io/kubernetes/pkg/apis/apps/install"
 	_ "k8s.io/kubernetes/pkg/apis/core/install"
 )

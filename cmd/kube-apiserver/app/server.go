@@ -57,9 +57,9 @@ import (
 
 	webhookinit "k8s.io/apiserver/pkg/admission/plugin/webhook/initializer"
 	"k8s.io/apiserver/pkg/storage/etcd3/preflight"
-	clientgoinformers "k8s.io/client-go/informers"
-	clientgoclientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
+	clientgoinformers "github.com/hyperhq/client-go/informers"
+	clientgoclientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/cmd/kube-apiserver/app/options"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	"k8s.io/kubernetes/pkg/apis/admissionregistration"

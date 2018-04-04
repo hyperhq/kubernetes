@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"k8s.io/apimachinery/pkg/util/clock"
-	expirationcache "k8s.io/client-go/tools/cache"
+	expirationcache "github.com/hyperhq/client-go/tools/cache"
 )
 
 type testObject struct {

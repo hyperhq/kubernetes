@@ -31,9 +31,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/kubernetes/scheme"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 
 	"errors"
 

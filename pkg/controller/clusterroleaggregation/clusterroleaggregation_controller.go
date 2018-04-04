@@ -30,11 +30,11 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	rbacinformers "k8s.io/client-go/informers/rbac/v1"
-	rbacclient "k8s.io/client-go/kubernetes/typed/rbac/v1"
-	rbaclisters "k8s.io/client-go/listers/rbac/v1"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/util/workqueue"
+	rbacinformers "github.com/hyperhq/client-go/informers/rbac/v1"
+	rbacclient "github.com/hyperhq/client-go/kubernetes/typed/rbac/v1"
+	rbaclisters "github.com/hyperhq/client-go/listers/rbac/v1"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/pkg/controller"
 )
 

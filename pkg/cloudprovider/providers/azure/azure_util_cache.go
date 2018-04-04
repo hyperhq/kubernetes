@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 type timedcacheEntry struct {

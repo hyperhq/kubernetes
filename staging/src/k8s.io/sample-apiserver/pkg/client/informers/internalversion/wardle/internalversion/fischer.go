@@ -22,7 +22,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	wardle "k8s.io/sample-apiserver/pkg/apis/wardle"
 	clientset_internalversion "k8s.io/sample-apiserver/pkg/client/clientset/internalversion"
 	internalinterfaces "k8s.io/sample-apiserver/pkg/client/informers/internalversion/internalinterfaces"

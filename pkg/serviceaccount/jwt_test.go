@@ -23,9 +23,9 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	apiserverserviceaccount "k8s.io/apiserver/pkg/authentication/serviceaccount"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/fake"
-	certutil "k8s.io/client-go/util/cert"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	certutil "github.com/hyperhq/client-go/util/cert"
 	serviceaccountcontroller "k8s.io/kubernetes/pkg/controller/serviceaccount"
 	"k8s.io/kubernetes/pkg/serviceaccount"
 )

@@ -33,11 +33,11 @@ import (
 	"k8s.io/apimachinery/pkg/watch"
 
 	"k8s.io/apimachinery/pkg/util/clock"
-	ref "k8s.io/client-go/tools/reference"
+	ref "github.com/hyperhq/client-go/tools/reference"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/kubernetes/fake"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	utilnode "k8s.io/kubernetes/pkg/util/node"

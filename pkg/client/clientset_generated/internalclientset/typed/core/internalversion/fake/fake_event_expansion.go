@@ -20,7 +20,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/runtime"
-	core "k8s.io/client-go/testing"
+	core "github.com/hyperhq/client-go/testing"
 	api "k8s.io/kubernetes/pkg/apis/core"
 )
 

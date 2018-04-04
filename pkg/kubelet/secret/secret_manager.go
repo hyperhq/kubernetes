@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/api/core/v1"
 	storageetcd "k8s.io/apiserver/pkg/storage/etcd"
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
 	"k8s.io/kubernetes/pkg/kubelet/util"
 

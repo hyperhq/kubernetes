@@ -25,7 +25,7 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/test/e2e/framework"
 )
 

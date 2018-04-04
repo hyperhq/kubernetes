@@ -30,7 +30,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	webhookerrors "k8s.io/apiserver/pkg/admission/plugin/webhook/errors"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/rest"
 )
 
 const (

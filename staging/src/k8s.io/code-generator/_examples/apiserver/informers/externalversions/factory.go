@@ -22,7 +22,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	versioned "k8s.io/code-generator/_examples/apiserver/clientset/versioned"
 	example "k8s.io/code-generator/_examples/apiserver/informers/externalversions/example"
 	example2 "k8s.io/code-generator/_examples/apiserver/informers/externalversions/example2"

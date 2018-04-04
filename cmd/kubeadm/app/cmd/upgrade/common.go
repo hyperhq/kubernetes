@@ -27,8 +27,8 @@ import (
 	"github.com/ghodss/yaml"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	clientset "k8s.io/client-go/kubernetes"
+	fakediscovery "github.com/hyperhq/client-go/discovery/fake"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 	kubeadmapiext "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm/v1alpha1"
 	"k8s.io/kubernetes/cmd/kubeadm/app/features"
 	"k8s.io/kubernetes/cmd/kubeadm/app/phases/upgrade"

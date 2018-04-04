@@ -28,11 +28,11 @@ package replication
 import (
 	"github.com/golang/glog"
 	"k8s.io/api/core/v1"
-	coreinformers "k8s.io/client-go/informers/core/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/scheme"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
-	"k8s.io/client-go/tools/record"
+	coreinformers "github.com/hyperhq/client-go/informers/core/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/tools/record"
 	"k8s.io/kubernetes/pkg/controller"
 	"k8s.io/kubernetes/pkg/controller/replicaset"
 )

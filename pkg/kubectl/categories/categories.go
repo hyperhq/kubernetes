@@ -18,7 +18,7 @@ package categories
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/discovery"
+	"github.com/hyperhq/client-go/discovery"
 )
 
 type CategoryExpander interface {

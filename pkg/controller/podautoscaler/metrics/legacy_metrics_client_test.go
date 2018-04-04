@@ -28,9 +28,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/kubernetes/fake"
-	restclient "k8s.io/client-go/rest"
-	core "k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	restclient "github.com/hyperhq/client-go/rest"
+	core "github.com/hyperhq/client-go/testing"
 
 	heapster "k8s.io/heapster/metrics/api/v1/types"
 	metricsapi "k8s.io/metrics/pkg/apis/metrics/v1alpha1"

@@ -45,8 +45,8 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/storage/storagebackend"
-	"k8s.io/client-go/discovery"
-	cache "k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/discovery"
+	cache "github.com/hyperhq/client-go/tools/cache"
 
 	"k8s.io/apiextensions-apiserver/pkg/apis/apiextensions"
 	apiservervalidation "k8s.io/apiextensions-apiserver/pkg/apiserver/validation"

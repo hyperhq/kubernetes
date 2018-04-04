@@ -18,7 +18,7 @@ package v1beta1
 
 import (
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	rest "k8s.io/client-go/rest"
+	rest "github.com/hyperhq/client-go/rest"
 	v1beta1 "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1beta1"
 	"k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset/scheme"
 )

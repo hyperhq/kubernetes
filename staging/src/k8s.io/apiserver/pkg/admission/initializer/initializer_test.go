@@ -24,9 +24,9 @@ import (
 	"k8s.io/apiserver/pkg/admission"
 	"k8s.io/apiserver/pkg/admission/initializer"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/kubernetes/fake"
 )
 
 // TestWantsScheme ensures that the scheme is injected when

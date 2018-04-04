@@ -29,8 +29,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	"k8s.io/client-go/rest"
+	certificatesclient "github.com/hyperhq/client-go/kubernetes/typed/certificates/v1beta1"
+	"github.com/hyperhq/client-go/rest"
 )
 
 var (

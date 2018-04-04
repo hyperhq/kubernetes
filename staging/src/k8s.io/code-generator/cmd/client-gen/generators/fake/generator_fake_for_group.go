@@ -75,9 +75,9 @@ func (g *genFakeForGroup) GenerateType(c *generator.Context, t *types.Type, w io
 	m := map[string]interface{}{
 		"GroupGoName":         g.groupGoName,
 		"Version":             namer.IC(g.version),
-		"Fake":                c.Universe.Type(types.Name{Package: "k8s.io/client-go/testing", Name: "Fake"}),
-		"RESTClientInterface": c.Universe.Type(types.Name{Package: "k8s.io/client-go/rest", Name: "Interface"}),
-		"RESTClient":          c.Universe.Type(types.Name{Package: "k8s.io/client-go/rest", Name: "RESTClient"}),
+		"Fake":                c.Universe.Type(types.Name{Package: "github.com/hyperhq/client-go/testing", Name: "Fake"}),
+		"RESTClientInterface": c.Universe.Type(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "Interface"}),
+		"RESTClient":          c.Universe.Type(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "RESTClient"}),
 	}
 
 	sw.Do(groupClientTemplate, m)

@@ -21,7 +21,7 @@ import (
 	"encoding/pem"
 	"testing"
 
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 	certstestutil "k8s.io/kubernetes/cmd/kubeadm/test/certs"
 )
 

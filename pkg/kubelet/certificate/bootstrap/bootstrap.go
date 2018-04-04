@@ -26,13 +26,13 @@ import (
 
 	"k8s.io/apimachinery/pkg/types"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	certificates "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
-	certutil "k8s.io/client-go/util/cert"
-	"k8s.io/client-go/util/certificate/csr"
+	certificates "github.com/hyperhq/client-go/kubernetes/typed/certificates/v1beta1"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/transport"
+	certutil "github.com/hyperhq/client-go/util/cert"
+	"github.com/hyperhq/client-go/util/certificate/csr"
 )
 
 const (

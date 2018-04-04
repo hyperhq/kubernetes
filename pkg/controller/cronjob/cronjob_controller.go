@@ -45,11 +45,11 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/scheme"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
-	"k8s.io/client-go/tools/record"
-	ref "k8s.io/client-go/tools/reference"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/tools/record"
+	ref "github.com/hyperhq/client-go/tools/reference"
 	"k8s.io/kubernetes/pkg/util/metrics"
 )
 

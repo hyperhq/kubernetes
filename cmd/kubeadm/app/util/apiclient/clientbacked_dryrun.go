@@ -24,12 +24,12 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	kuberuntime "k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/dynamic"
-	clientset "k8s.io/client-go/kubernetes"
-	clientsetscheme "k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
-	core "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/clientcmd"
+	"github.com/hyperhq/client-go/dynamic"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	clientsetscheme "github.com/hyperhq/client-go/kubernetes/scheme"
+	"github.com/hyperhq/client-go/rest"
+	core "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 )
 
 // ClientBackedDryRunGetter implements the DryRunGetter interface for use in NewDryRunClient() and proxies all GET and LIST requests to the backing API server reachable via rest.Config

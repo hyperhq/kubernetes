@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 )
 
 type currentContextTest struct {

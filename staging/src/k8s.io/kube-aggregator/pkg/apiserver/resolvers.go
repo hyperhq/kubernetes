@@ -20,7 +20,7 @@ import (
 	"net/url"
 
 	"k8s.io/apiserver/pkg/util/proxy"
-	listersv1 "k8s.io/client-go/listers/core/v1"
+	listersv1 "github.com/hyperhq/client-go/listers/core/v1"
 )
 
 // A ServiceResolver knows how to get a URL given a service.

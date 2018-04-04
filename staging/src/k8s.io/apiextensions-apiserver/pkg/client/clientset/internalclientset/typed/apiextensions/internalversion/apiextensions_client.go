@@ -18,7 +18,7 @@ package internalversion
 
 import (
 	"k8s.io/apiextensions-apiserver/pkg/client/clientset/internalclientset/scheme"
-	rest "k8s.io/client-go/rest"
+	rest "github.com/hyperhq/client-go/rest"
 )
 
 type ApiextensionsInterface interface {

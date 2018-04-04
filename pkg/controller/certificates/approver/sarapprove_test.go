@@ -31,8 +31,8 @@ import (
 	capi "k8s.io/api/certificates/v1beta1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/fake"
-	testclient "k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	testclient "github.com/hyperhq/client-go/testing"
 	k8s_certificates_v1beta1 "k8s.io/kubernetes/pkg/apis/certificates/v1beta1"
 )
 

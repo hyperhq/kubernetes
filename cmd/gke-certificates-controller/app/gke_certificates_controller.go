@@ -22,18 +22,18 @@ import (
 	"time"
 
 	"k8s.io/api/core/v1"
-	"k8s.io/client-go/informers"
-	clientset "k8s.io/client-go/kubernetes"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/tools/record"
+	"github.com/hyperhq/client-go/informers"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	"github.com/hyperhq/client-go/tools/record"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 	"k8s.io/kubernetes/pkg/controller"
 	"k8s.io/kubernetes/pkg/controller/certificates"
 
 	// Install all auth plugins
-	_ "k8s.io/client-go/plugin/pkg/client/auth"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth"
 
 	"github.com/golang/glog"
 	"github.com/spf13/cobra"

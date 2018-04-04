@@ -18,9 +18,9 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/hyperhq/client-go/discovery"
+	rest "github.com/hyperhq/client-go/rest"
+	flowcontrol "github.com/hyperhq/client-go/util/flowcontrol"
 	examplev1 "k8s.io/code-generator/_examples/apiserver/clientset/versioned/typed/example/v1"
 	secondexamplev1 "k8s.io/code-generator/_examples/apiserver/clientset/versioned/typed/example2/v1"
 )

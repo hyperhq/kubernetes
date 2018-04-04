@@ -24,7 +24,7 @@ import (
 	api "k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/kubernetes/fake"
 )
 
 func TestDeploymentStatusViewerStatus(t *testing.T) {

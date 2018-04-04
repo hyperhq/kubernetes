@@ -17,8 +17,8 @@ limitations under the License.
 package fake
 
 import (
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	rest "github.com/hyperhq/client-go/rest"
+	testing "github.com/hyperhq/client-go/testing"
 	v1 "k8s.io/code-generator/_examples/crd/clientset/versioned/typed/example2/v1"
 )
 

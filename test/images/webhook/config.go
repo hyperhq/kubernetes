@@ -19,8 +19,8 @@ package main
 import (
 	"crypto/tls"
 
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/rest"
 
 	"github.com/golang/glog"
 )

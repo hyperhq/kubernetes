@@ -26,9 +26,9 @@ import (
 
 	certificates "k8s.io/api/certificates/v1beta1"
 	"k8s.io/apimachinery/pkg/types"
-	clientset "k8s.io/client-go/kubernetes"
-	clientcertificates "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	"k8s.io/client-go/util/certificate"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	clientcertificates "github.com/hyperhq/client-go/kubernetes/typed/certificates/v1beta1"
+	"github.com/hyperhq/client-go/util/certificate"
 	"k8s.io/kubernetes/pkg/kubelet/apis/kubeletconfig"
 	"k8s.io/kubernetes/pkg/kubelet/metrics"
 )

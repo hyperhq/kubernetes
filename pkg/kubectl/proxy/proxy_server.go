@@ -29,8 +29,8 @@ import (
 	"github.com/golang/glog"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/util/proxy"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/transport"
+	"github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/transport"
 	"k8s.io/kubernetes/pkg/kubectl/util"
 )
 

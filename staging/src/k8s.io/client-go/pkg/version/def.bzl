@@ -4,7 +4,7 @@ def version_x_defs():
   stamp_pkgs = [
       "k8s.io/kubernetes/pkg/version",
       # In hack/lib/version.sh, this has a vendor/ prefix. That isn't needed here?
-      "k8s.io/client-go/pkg/version",
+      "github.com/hyperhq/client-go/pkg/version",
       ]
   # This should match the list of vars in kube::version::ldflags
   # It should also match the list of vars set in hack/print-workspace-status.sh.

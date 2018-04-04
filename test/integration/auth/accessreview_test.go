@@ -26,7 +26,7 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/hyperhq/client-go/rest"
 	"k8s.io/kubernetes/pkg/api/testapi"
 	authorizationapi "k8s.io/kubernetes/pkg/apis/authorization"
 	api "k8s.io/kubernetes/pkg/apis/core"

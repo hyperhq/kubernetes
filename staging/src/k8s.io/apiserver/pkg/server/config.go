@@ -58,9 +58,9 @@ import (
 	"k8s.io/apiserver/pkg/server/healthz"
 	"k8s.io/apiserver/pkg/server/routes"
 	utilfeature "k8s.io/apiserver/pkg/util/feature"
-	"k8s.io/client-go/informers"
-	restclient "k8s.io/client-go/rest"
-	certutil "k8s.io/client-go/util/cert"
+	"github.com/hyperhq/client-go/informers"
+	restclient "github.com/hyperhq/client-go/rest"
+	certutil "github.com/hyperhq/client-go/util/cert"
 	openapicommon "k8s.io/kube-openapi/pkg/common"
 
 	// install apis

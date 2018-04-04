@@ -24,10 +24,10 @@ import (
 
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	coreinformers "k8s.io/client-go/informers/core/v1"
-	storageinformers "k8s.io/client-go/informers/storage/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	corelisters "k8s.io/client-go/listers/core/v1"
+	coreinformers "github.com/hyperhq/client-go/informers/core/v1"
+	storageinformers "github.com/hyperhq/client-go/informers/storage/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	corelisters "github.com/hyperhq/client-go/listers/core/v1"
 	volumeutil "k8s.io/kubernetes/pkg/volume/util"
 )
 

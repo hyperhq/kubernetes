@@ -40,7 +40,7 @@ import (
 	"k8s.io/apiserver/pkg/admission/plugin/webhook/config"
 	"k8s.io/apiserver/pkg/admission/plugin/webhook/testcerts"
 	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/rest"
 )
 
 type fakeHookSource struct {

@@ -23,8 +23,8 @@ import (
 	"k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	v1listers "k8s.io/client-go/listers/core/v1"
-	"k8s.io/client-go/tools/cache"
+	v1listers "github.com/hyperhq/client-go/listers/core/v1"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 func TestResolve(t *testing.T) {

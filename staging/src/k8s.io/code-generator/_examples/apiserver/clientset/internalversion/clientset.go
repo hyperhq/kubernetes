@@ -18,9 +18,9 @@ package internalversion
 
 import (
 	glog "github.com/golang/glog"
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/hyperhq/client-go/discovery"
+	rest "github.com/hyperhq/client-go/rest"
+	flowcontrol "github.com/hyperhq/client-go/util/flowcontrol"
 	exampleinternalversion "k8s.io/code-generator/_examples/apiserver/clientset/internalversion/typed/example/internalversion"
 	secondexampleinternalversion "k8s.io/code-generator/_examples/apiserver/clientset/internalversion/typed/example2/internalversion"
 )

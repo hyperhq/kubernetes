@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 	"k8s.io/kubernetes/pkg/cloudprovider"
 	"k8s.io/kubernetes/pkg/controller"
 	"k8s.io/kubernetes/pkg/version"

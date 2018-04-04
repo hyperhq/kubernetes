@@ -21,7 +21,7 @@ package internalversion
 import (
 	"fmt"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	apiregistration "k8s.io/kube-aggregator/pkg/apis/apiregistration"
 )
 

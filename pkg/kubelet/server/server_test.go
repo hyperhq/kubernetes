@@ -45,8 +45,8 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	"k8s.io/client-go/tools/remotecommand"
-	utiltesting "k8s.io/client-go/util/testing"
+	"github.com/hyperhq/client-go/tools/remotecommand"
+	utiltesting "github.com/hyperhq/client-go/util/testing"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	statsapi "k8s.io/kubernetes/pkg/kubelet/apis/stats/v1alpha1"
 	// Do some initialization to decode the query parameters correctly.

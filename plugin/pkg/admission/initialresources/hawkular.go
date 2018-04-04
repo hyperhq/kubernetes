@@ -32,8 +32,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	api "k8s.io/kubernetes/pkg/apis/core"
 
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/clientcmd"
 )
 
 type hawkularSource struct {

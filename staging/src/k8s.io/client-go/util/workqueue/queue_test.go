@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/util/workqueue"
 )
 
 func TestBasic(t *testing.T) {

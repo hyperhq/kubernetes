@@ -19,7 +19,7 @@ limitations under the License.
 package prometheus
 
 import (
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 
 	"github.com/prometheus/client_golang/prometheus"
 )

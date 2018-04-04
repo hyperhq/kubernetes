@@ -31,8 +31,8 @@ import (
 	clientgov1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	clientset "k8s.io/client-go/kubernetes"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 )
 
 const (

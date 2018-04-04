@@ -51,9 +51,9 @@ import (
 	"k8s.io/apiserver/pkg/registry/rest"
 	genericfilters "k8s.io/apiserver/pkg/server/filters"
 	etcdtesting "k8s.io/apiserver/pkg/storage/etcd/testing"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/kubernetes/fake"
-	restclient "k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	restclient "github.com/hyperhq/client-go/rest"
 	openapi "k8s.io/kube-openapi/pkg/common"
 )
 

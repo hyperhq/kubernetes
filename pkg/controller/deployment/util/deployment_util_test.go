@@ -33,8 +33,8 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/intstr"
 	"k8s.io/apiserver/pkg/storage/names"
-	"k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
 	"k8s.io/kubernetes/pkg/controller"
 )
 

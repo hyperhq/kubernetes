@@ -19,7 +19,7 @@ package podautoscaler
 import (
 	"time"
 
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/util/workqueue"
 )
 
 // FixedItemIntervalRateLimiter limits items to a fixed-rate interval

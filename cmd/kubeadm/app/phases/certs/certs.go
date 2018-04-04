@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 
 	"k8s.io/apimachinery/pkg/util/validation"
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/hyperhq/client-go/util/cert"
 	kubeadmapi "k8s.io/kubernetes/cmd/kubeadm/app/apis/kubeadm"
 	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
 	"k8s.io/kubernetes/cmd/kubeadm/app/phases/certs/pkiutil"

@@ -31,7 +31,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/util/wait"
 	genericapiserver "k8s.io/apiserver/pkg/server"
-	"k8s.io/client-go/dynamic"
+	"github.com/hyperhq/client-go/dynamic"
 )
 
 func DefaultServerConfig() (*extensionsapiserver.Config, error) {

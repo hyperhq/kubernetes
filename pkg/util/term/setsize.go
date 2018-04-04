@@ -20,7 +20,7 @@ package term
 
 import (
 	"github.com/docker/docker/pkg/term"
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/hyperhq/client-go/tools/remotecommand"
 )
 
 // SetSize sets the terminal size associated with fd.

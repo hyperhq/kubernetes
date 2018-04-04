@@ -21,8 +21,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/equality"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/rest"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 )
 
 func TestAuthenticationDetection(t *testing.T) {

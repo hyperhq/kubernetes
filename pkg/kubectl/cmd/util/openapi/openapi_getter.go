@@ -19,7 +19,7 @@ package openapi
 import (
 	"sync"
 
-	"k8s.io/client-go/discovery"
+	"github.com/hyperhq/client-go/discovery"
 )
 
 // synchronizedOpenAPIGetter fetches the openapi schema once and then caches it in memory

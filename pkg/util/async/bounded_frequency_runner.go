@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 
 	"github.com/golang/glog"
 )

@@ -21,8 +21,8 @@ import (
 	"os"
 
 	apiv1 "k8s.io/api/core/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/cache"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	"github.com/hyperhq/client-go/tools/cache"
 	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/checkpoint"
 	"k8s.io/kubernetes/pkg/kubelet/kubeletconfig/status"
 	utillog "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/log"

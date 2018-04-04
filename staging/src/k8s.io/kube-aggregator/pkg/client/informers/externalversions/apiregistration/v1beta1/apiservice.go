@@ -22,7 +22,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	apiregistration_v1beta1 "k8s.io/kube-aggregator/pkg/apis/apiregistration/v1beta1"
 	clientset "k8s.io/kube-aggregator/pkg/client/clientset_generated/clientset"
 	internalinterfaces "k8s.io/kube-aggregator/pkg/client/informers/externalversions/internalinterfaces"

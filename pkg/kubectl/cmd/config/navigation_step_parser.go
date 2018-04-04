@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"k8s.io/apimachinery/pkg/util/sets"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 )
 
 type navigationSteps struct {

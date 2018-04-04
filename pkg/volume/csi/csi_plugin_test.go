@@ -26,8 +26,8 @@ import (
 	"k8s.io/apimachinery/pkg/api/resource"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	fakeclient "k8s.io/client-go/kubernetes/fake"
-	utiltesting "k8s.io/client-go/util/testing"
+	fakeclient "github.com/hyperhq/client-go/kubernetes/fake"
+	utiltesting "github.com/hyperhq/client-go/util/testing"
 	"k8s.io/kubernetes/pkg/volume"
 	volumetest "k8s.io/kubernetes/pkg/volume/testing"
 )

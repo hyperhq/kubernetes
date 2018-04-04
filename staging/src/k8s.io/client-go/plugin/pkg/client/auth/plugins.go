@@ -18,8 +18,8 @@ package auth
 
 import (
 	// Initialize all known client auth plugins.
-	_ "k8s.io/client-go/plugin/pkg/client/auth/azure"
-	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
-	_ "k8s.io/client-go/plugin/pkg/client/auth/openstack"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/azure"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/gcp"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/oidc"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/openstack"
 )

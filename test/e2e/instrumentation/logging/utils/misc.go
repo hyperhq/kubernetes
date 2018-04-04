@@ -17,7 +17,7 @@ limitations under the License.
 package utils
 
 import (
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 	"k8s.io/kubernetes/test/e2e/framework"
 )
 

@@ -23,8 +23,8 @@ import (
 	"k8s.io/api/core/v1"
 	extensions "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/pkg/controller/deployment/util"
 )
 

@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"time"
 
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/hyperhq/client-go/util/cert"
 )
 
 // NewCertificateAuthority creates new certificate and private key for the certificate authority

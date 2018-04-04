@@ -21,8 +21,8 @@ import (
 
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/runtime"
-	clientsetfake "k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
+	clientsetfake "github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
 	kubeadmconstants "k8s.io/kubernetes/cmd/kubeadm/app/constants"
 	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
 	api "k8s.io/kubernetes/pkg/apis/core"

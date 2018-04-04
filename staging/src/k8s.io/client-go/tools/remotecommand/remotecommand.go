@@ -26,8 +26,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/util/httpstream"
 	"k8s.io/apimachinery/pkg/util/remotecommand"
-	restclient "k8s.io/client-go/rest"
-	spdy "k8s.io/client-go/transport/spdy"
+	restclient "github.com/hyperhq/client-go/rest"
+	spdy "github.com/hyperhq/client-go/transport/spdy"
 )
 
 // StreamOptions holds information pertaining to the current streaming session: supported stream

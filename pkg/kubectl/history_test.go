@@ -21,7 +21,7 @@ import (
 	"testing"
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/fake"
+	"github.com/hyperhq/client-go/kubernetes/fake"
 )
 
 var historytests = map[schema.GroupKind]reflect.Type{

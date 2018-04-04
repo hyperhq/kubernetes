@@ -28,7 +28,7 @@ import (
 	extensions "k8s.io/api/extensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
-	unversionedextensions "k8s.io/client-go/kubernetes/typed/extensions/v1beta1"
+	unversionedextensions "github.com/hyperhq/client-go/kubernetes/typed/extensions/v1beta1"
 	podutil "k8s.io/kubernetes/pkg/api/v1/pod"
 )
 

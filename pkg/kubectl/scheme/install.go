@@ -48,7 +48,7 @@ import (
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/kubernetes/scheme"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
 )
 
 // Register all groups in the kubectl's registry, but no componentconfig group since it's not in k8s.io/api

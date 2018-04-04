@@ -39,7 +39,7 @@ import (
 	auditinternal "k8s.io/apiserver/pkg/apis/audit"
 	auditv1beta1 "k8s.io/apiserver/pkg/apis/audit/v1beta1"
 	"k8s.io/apiserver/pkg/audit"
-	"k8s.io/client-go/tools/clientcmd/api/v1"
+	"github.com/hyperhq/client-go/tools/clientcmd/api/v1"
 )
 
 // newWebhookHandler returns a handler which recieves webhook events and decodes the

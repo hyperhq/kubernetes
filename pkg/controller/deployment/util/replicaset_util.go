@@ -23,9 +23,9 @@ import (
 
 	extensions "k8s.io/api/extensions/v1beta1"
 	errorsutil "k8s.io/apimachinery/pkg/util/errors"
-	unversionedextensions "k8s.io/client-go/kubernetes/typed/extensions/v1beta1"
-	extensionslisters "k8s.io/client-go/listers/extensions/v1beta1"
-	"k8s.io/client-go/util/retry"
+	unversionedextensions "github.com/hyperhq/client-go/kubernetes/typed/extensions/v1beta1"
+	extensionslisters "github.com/hyperhq/client-go/listers/extensions/v1beta1"
+	"github.com/hyperhq/client-go/util/retry"
 	"k8s.io/kubernetes/pkg/controller"
 	labelsutil "k8s.io/kubernetes/pkg/util/labels"
 )

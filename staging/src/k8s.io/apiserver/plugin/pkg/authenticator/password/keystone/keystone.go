@@ -28,7 +28,7 @@ import (
 
 	netutil "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apiserver/pkg/authentication/user"
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/hyperhq/client-go/util/cert"
 )
 
 // KeystoneAuthenticator contacts openstack keystone to validate user's credentials passed in the request.

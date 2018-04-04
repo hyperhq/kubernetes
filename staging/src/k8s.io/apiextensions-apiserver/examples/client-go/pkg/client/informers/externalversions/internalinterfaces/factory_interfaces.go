@@ -21,7 +21,7 @@ package internalinterfaces
 import (
 	versioned "k8s.io/apiextensions-apiserver/examples/client-go/pkg/client/clientset/versioned"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	cache "k8s.io/client-go/tools/cache"
+	cache "github.com/hyperhq/client-go/tools/cache"
 	time "time"
 )
 

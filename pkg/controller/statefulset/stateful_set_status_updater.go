@@ -21,9 +21,9 @@ import (
 
 	apps "k8s.io/api/apps/v1beta1"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	clientset "k8s.io/client-go/kubernetes"
-	appslisters "k8s.io/client-go/listers/apps/v1beta1"
-	"k8s.io/client-go/util/retry"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	appslisters "github.com/hyperhq/client-go/listers/apps/v1beta1"
+	"github.com/hyperhq/client-go/util/retry"
 )
 
 // StatefulSetStatusUpdaterInterface is an interface used to update the StatefulSetStatus associated with a StatefulSet.

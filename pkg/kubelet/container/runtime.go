@@ -27,8 +27,8 @@ import (
 	"github.com/golang/glog"
 	"k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/client-go/tools/remotecommand"
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/tools/remotecommand"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 	runtimeapi "k8s.io/kubernetes/pkg/kubelet/apis/cri/v1alpha1/runtime"
 	"k8s.io/kubernetes/pkg/volume"
 )

@@ -33,10 +33,10 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/dynamic"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/pkg/controller/garbagecollector/metaonly"
 )
 

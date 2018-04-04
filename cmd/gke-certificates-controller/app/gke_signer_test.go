@@ -27,7 +27,7 @@ import (
 	"time"
 
 	certificates "k8s.io/api/certificates/v1beta1"
-	"k8s.io/client-go/tools/record"
+	"github.com/hyperhq/client-go/tools/record"
 )
 
 const kubeConfigTmpl = `

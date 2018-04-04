@@ -24,9 +24,9 @@ import (
 	"strconv"
 
 	apps "k8s.io/api/apps/v1beta1"
-	appsinformers "k8s.io/client-go/informers/apps/v1beta1"
-	clientset "k8s.io/client-go/kubernetes"
-	appslisters "k8s.io/client-go/listers/apps/v1beta1"
+	appsinformers "github.com/hyperhq/client-go/informers/apps/v1beta1"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	appslisters "github.com/hyperhq/client-go/listers/apps/v1beta1"
 	hashutil "k8s.io/kubernetes/pkg/util/hash"
 
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
@@ -38,8 +38,8 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/rand"
-	"k8s.io/client-go/tools/cache"
-	"k8s.io/client-go/util/retry"
+	"github.com/hyperhq/client-go/tools/cache"
+	"github.com/hyperhq/client-go/util/retry"
 )
 
 // ControllerRevisionHashLabel is the label used to indicate the hash value of a ControllerRevision's Data.

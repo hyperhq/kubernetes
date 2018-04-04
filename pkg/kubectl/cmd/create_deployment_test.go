@@ -24,8 +24,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/rest/fake"
 	"k8s.io/kubernetes/pkg/kubectl"
 	cmdtesting "k8s.io/kubernetes/pkg/kubectl/cmd/testing"
 	cmdutil "k8s.io/kubernetes/pkg/kubectl/cmd/util"

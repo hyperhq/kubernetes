@@ -24,7 +24,7 @@ import (
 	dockertypes "github.com/docker/docker/api/types"
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/hyperhq/client-go/tools/remotecommand"
 	kubecontainer "k8s.io/kubernetes/pkg/kubelet/container"
 
 	"k8s.io/kubernetes/pkg/kubelet/dockershim/libdocker"

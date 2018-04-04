@@ -30,7 +30,7 @@ import (
 	apierrs "k8s.io/apimachinery/pkg/api/errors"
 	meta "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/client-go/kubernetes"
+	"github.com/hyperhq/client-go/kubernetes"
 	"k8s.io/kubernetes/pkg/volume"
 )
 

@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"k8s.io/client-go/util/cert"
+	"github.com/hyperhq/client-go/util/cert"
 	"k8s.io/kubernetes/test/e2e/framework"
 )
 

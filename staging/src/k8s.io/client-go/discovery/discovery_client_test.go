@@ -32,8 +32,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/version"
-	. "k8s.io/client-go/discovery"
-	restclient "k8s.io/client-go/rest"
+	. "github.com/hyperhq/client-go/discovery"
+	restclient "github.com/hyperhq/client-go/rest"
 )
 
 func TestGetServerVersion(t *testing.T) {

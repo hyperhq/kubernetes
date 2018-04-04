@@ -22,7 +22,7 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"golang.org/x/oauth2"

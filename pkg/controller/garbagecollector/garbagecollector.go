@@ -33,16 +33,16 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/discovery"
+	"github.com/hyperhq/client-go/dynamic"
+	"github.com/hyperhq/client-go/informers"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kubernetes/pkg/controller"
 	_ "k8s.io/kubernetes/pkg/util/reflector/prometheus" // for reflector metric registration
 	// install the prometheus plugin
 	_ "k8s.io/kubernetes/pkg/util/workqueue/prometheus"
 	// import known versions
-	_ "k8s.io/client-go/kubernetes"
+	_ "github.com/hyperhq/client-go/kubernetes"
 )
 
 const ResourceResyncTime time.Duration = 0

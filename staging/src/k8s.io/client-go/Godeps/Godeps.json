@@ -1,5 +1,5 @@
 {
-	"ImportPath": "k8s.io/client-go",
+	"ImportPath": "github.com/hyperhq/client-go",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v79",
 	"Packages": [

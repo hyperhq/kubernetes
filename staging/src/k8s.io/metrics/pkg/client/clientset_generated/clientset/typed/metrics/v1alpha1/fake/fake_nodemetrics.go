@@ -21,7 +21,7 @@ import (
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	watch "k8s.io/apimachinery/pkg/watch"
-	testing "k8s.io/client-go/testing"
+	testing "github.com/hyperhq/client-go/testing"
 	v1alpha1 "k8s.io/metrics/pkg/apis/metrics/v1alpha1"
 )
 

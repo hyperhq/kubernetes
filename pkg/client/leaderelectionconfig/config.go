@@ -21,7 +21,7 @@ import (
 
 	"github.com/spf13/pflag"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
+	rl "github.com/hyperhq/client-go/tools/leaderelection/resourcelock"
 	"k8s.io/kubernetes/pkg/apis/componentconfig"
 )
 

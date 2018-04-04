@@ -33,9 +33,9 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	certificatesinformers "k8s.io/client-go/informers/certificates/v1beta1"
-	csrclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	certificateslisters "k8s.io/client-go/listers/certificates/v1beta1"
+	certificatesinformers "github.com/hyperhq/client-go/informers/certificates/v1beta1"
+	csrclient "github.com/hyperhq/client-go/kubernetes/typed/certificates/v1beta1"
+	certificateslisters "github.com/hyperhq/client-go/listers/certificates/v1beta1"
 )
 
 const (

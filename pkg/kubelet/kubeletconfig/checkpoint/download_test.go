@@ -25,7 +25,7 @@ import (
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
-	fakeclient "k8s.io/client-go/kubernetes/fake"
+	fakeclient "github.com/hyperhq/client-go/kubernetes/fake"
 	kubeletscheme "k8s.io/kubernetes/pkg/kubelet/apis/kubeletconfig/scheme"
 	utiltest "k8s.io/kubernetes/pkg/kubelet/kubeletconfig/util/test"
 )

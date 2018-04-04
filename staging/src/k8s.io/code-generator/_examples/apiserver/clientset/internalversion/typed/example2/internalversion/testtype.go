@@ -20,7 +20,7 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	rest "k8s.io/client-go/rest"
+	rest "github.com/hyperhq/client-go/rest"
 	example2 "k8s.io/code-generator/_examples/apiserver/apis/example2"
 	scheme "k8s.io/code-generator/_examples/apiserver/clientset/internalversion/scheme"
 )

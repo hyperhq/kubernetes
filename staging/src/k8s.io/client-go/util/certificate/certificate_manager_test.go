@@ -32,7 +32,7 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/wait"
 	watch "k8s.io/apimachinery/pkg/watch"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
+	certificatesclient "github.com/hyperhq/client-go/kubernetes/typed/certificates/v1beta1"
 )
 
 var storeCertData = newCertificateData(`-----BEGIN CERTIFICATE-----

@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"k8s.io/apiserver/pkg/util/flag"
-	"k8s.io/client-go/tools/clientcmd"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	"github.com/hyperhq/client-go/tools/clientcmd"
+	clientcmdapi "github.com/hyperhq/client-go/tools/clientcmd/api"
 )
 
 func stringFlagFor(s string) flag.StringFlag {

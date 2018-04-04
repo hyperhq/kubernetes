@@ -20,7 +20,7 @@ import (
 	"fmt"
 
 	"k8s.io/api/core/v1"
-	ref "k8s.io/client-go/tools/reference"
+	ref "github.com/hyperhq/client-go/tools/reference"
 	"k8s.io/kubernetes/pkg/api/legacyscheme"
 )
 

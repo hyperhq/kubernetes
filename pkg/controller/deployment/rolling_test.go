@@ -21,9 +21,9 @@ import (
 
 	extensions "k8s.io/api/extensions/v1beta1"
 	"k8s.io/apimachinery/pkg/util/intstr"
-	"k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
-	"k8s.io/client-go/tools/record"
+	"github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
+	"github.com/hyperhq/client-go/tools/record"
 )
 
 func TestDeploymentController_reconcileNewReplicaSet(t *testing.T) {

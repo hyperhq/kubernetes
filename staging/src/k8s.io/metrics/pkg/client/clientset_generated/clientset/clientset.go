@@ -18,9 +18,9 @@ package clientset
 
 import (
 	glog "github.com/golang/glog"
-	discovery "k8s.io/client-go/discovery"
-	rest "k8s.io/client-go/rest"
-	flowcontrol "k8s.io/client-go/util/flowcontrol"
+	discovery "github.com/hyperhq/client-go/discovery"
+	rest "github.com/hyperhq/client-go/rest"
+	flowcontrol "github.com/hyperhq/client-go/util/flowcontrol"
 	metricsv1alpha1 "k8s.io/metrics/pkg/client/clientset_generated/clientset/typed/metrics/v1alpha1"
 	metricsv1beta1 "k8s.io/metrics/pkg/client/clientset_generated/clientset/typed/metrics/v1beta1"
 )

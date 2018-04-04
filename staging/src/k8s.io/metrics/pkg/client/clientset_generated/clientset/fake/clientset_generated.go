@@ -19,9 +19,9 @@ package fake
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/discovery"
-	fakediscovery "k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/discovery"
+	fakediscovery "github.com/hyperhq/client-go/discovery/fake"
+	"github.com/hyperhq/client-go/testing"
 	clientset "k8s.io/metrics/pkg/client/clientset_generated/clientset"
 	metricsv1alpha1 "k8s.io/metrics/pkg/client/clientset_generated/clientset/typed/metrics/v1alpha1"
 	fakemetricsv1alpha1 "k8s.io/metrics/pkg/client/clientset_generated/clientset/typed/metrics/v1alpha1/fake"

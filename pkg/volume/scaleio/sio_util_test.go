@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	api "k8s.io/api/core/v1"
-	utiltesting "k8s.io/client-go/util/testing"
+	utiltesting "github.com/hyperhq/client-go/util/testing"
 	"k8s.io/kubernetes/pkg/volume"
 )
 

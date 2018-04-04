@@ -31,8 +31,8 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	restclientwatch "github.com/hyperhq/client-go/rest/watch"
 )
 
 // getDecoder mimics how k8s.io/client-go/rest.createSerializers creates a decoder

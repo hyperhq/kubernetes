@@ -28,8 +28,8 @@ import (
 	"k8s.io/apiserver/pkg/authentication/authenticator"
 	"k8s.io/apiserver/pkg/authentication/user"
 	"k8s.io/apiserver/pkg/util/webhook"
-	"k8s.io/client-go/kubernetes/scheme"
-	authenticationclient "k8s.io/client-go/kubernetes/typed/authentication/v1beta1"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	authenticationclient "github.com/hyperhq/client-go/kubernetes/typed/authentication/v1beta1"
 )
 
 var (

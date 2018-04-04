@@ -24,7 +24,7 @@ import (
 	"time"
 
 	capi "k8s.io/api/certificates/v1beta1"
-	"k8s.io/client-go/util/cert"
+	"github.com/hyperhq/client-go/util/cert"
 )
 
 func TestSigner(t *testing.T) {

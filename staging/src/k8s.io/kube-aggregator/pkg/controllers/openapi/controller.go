@@ -26,7 +26,7 @@ import (
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/util/workqueue"
 	"k8s.io/kube-aggregator/pkg/apis/apiregistration"
 )
 

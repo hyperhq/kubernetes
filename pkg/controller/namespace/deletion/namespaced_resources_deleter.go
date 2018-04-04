@@ -32,9 +32,9 @@ import (
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/dynamic"
-	v1clientset "k8s.io/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/discovery"
+	"github.com/hyperhq/client-go/dynamic"
+	v1clientset "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
 )
 
 // Interface to delete a namespace with all resources in it.

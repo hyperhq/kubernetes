@@ -21,7 +21,7 @@ import (
 
 	"github.com/docker/docker/pkg/term"
 	"k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/tools/remotecommand"
+	"github.com/hyperhq/client-go/tools/remotecommand"
 )
 
 // GetSize returns the current size of the user's terminal. If it isn't a terminal,

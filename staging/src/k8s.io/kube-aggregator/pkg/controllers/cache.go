@@ -22,7 +22,7 @@ import (
 	"github.com/golang/glog"
 
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 )
 
 // WaitForCacheSync is a wrapper around cache.WaitForCacheSync that generates log messages

@@ -21,8 +21,8 @@ package fake
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/dynamic"
-	"k8s.io/client-go/testing"
+	"github.com/hyperhq/client-go/dynamic"
+	"github.com/hyperhq/client-go/testing"
 )
 
 // FakeClientPool provides a fake implementation of dynamic.ClientPool.

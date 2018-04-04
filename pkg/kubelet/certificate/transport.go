@@ -29,8 +29,8 @@ import (
 
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/util/wait"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/util/certificate"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/util/certificate"
 )
 
 // UpdateTransport instruments a restconfig with a transport that dynamically uses

@@ -33,7 +33,7 @@ import (
 	"k8s.io/api/authentication/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apiserver/pkg/authentication/user"
-	"k8s.io/client-go/tools/clientcmd/api/v1"
+	"github.com/hyperhq/client-go/tools/clientcmd/api/v1"
 )
 
 // Service mocks a remote authentication service.

@@ -20,7 +20,7 @@ import (
 	"time"
 
 	"k8s.io/apiserver/pkg/authorization/authorizer"
-	authorizationclient "k8s.io/client-go/kubernetes/typed/authorization/v1beta1"
+	authorizationclient "github.com/hyperhq/client-go/kubernetes/typed/authorization/v1beta1"
 
 	"k8s.io/apiserver/plugin/pkg/authorizer/webhook"
 )

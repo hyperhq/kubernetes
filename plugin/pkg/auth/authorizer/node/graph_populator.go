@@ -19,7 +19,7 @@ package node
 import (
 	"github.com/golang/glog"
 
-	"k8s.io/client-go/tools/cache"
+	"github.com/hyperhq/client-go/tools/cache"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	coreinformers "k8s.io/kubernetes/pkg/client/informers/informers_generated/internalversion/core/internalversion"
 )

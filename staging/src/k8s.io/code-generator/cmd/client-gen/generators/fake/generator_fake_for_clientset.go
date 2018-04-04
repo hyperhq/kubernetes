@@ -72,9 +72,9 @@ func (g *genClientset) Imports(c *generator.Context) (imports []string) {
 	imports = append(imports, fmt.Sprintf("clientset \"%s\"", g.realClientsetPackage))
 	// imports for the code in commonTemplate
 	imports = append(imports,
-		"k8s.io/client-go/testing",
-		"k8s.io/client-go/discovery",
-		"fakediscovery \"k8s.io/client-go/discovery/fake\"",
+		"github.com/hyperhq/client-go/testing",
+		"github.com/hyperhq/client-go/discovery",
+		"fakediscovery \"github.com/hyperhq/client-go/discovery/fake\"",
 		"k8s.io/apimachinery/pkg/runtime",
 		"k8s.io/apimachinery/pkg/watch",
 	)

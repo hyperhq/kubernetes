@@ -38,12 +38,12 @@ import (
 	"k8s.io/apiserver/plugin/pkg/authenticator/request/basicauth"
 	"k8s.io/apiserver/plugin/pkg/authenticator/token/oidc"
 	"k8s.io/apiserver/plugin/pkg/authenticator/token/webhook"
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/hyperhq/client-go/util/cert"
 	"k8s.io/kubernetes/pkg/serviceaccount"
 
 	// Initialize all known client auth plugins.
-	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/gcp"
+	_ "github.com/hyperhq/client-go/plugin/pkg/client/auth/oidc"
 )
 
 type AuthenticatorConfig struct {

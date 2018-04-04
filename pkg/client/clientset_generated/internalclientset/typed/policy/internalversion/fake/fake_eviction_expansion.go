@@ -18,7 +18,7 @@ package fake
 
 import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	core "k8s.io/client-go/testing"
+	core "github.com/hyperhq/client-go/testing"
 	policy "k8s.io/kubernetes/pkg/apis/policy"
 )
 

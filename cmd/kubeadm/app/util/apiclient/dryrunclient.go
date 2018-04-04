@@ -25,9 +25,9 @@ import (
 
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	clientset "k8s.io/client-go/kubernetes"
-	fakeclientset "k8s.io/client-go/kubernetes/fake"
-	core "k8s.io/client-go/testing"
+	clientset "github.com/hyperhq/client-go/kubernetes"
+	fakeclientset "github.com/hyperhq/client-go/kubernetes/fake"
+	core "github.com/hyperhq/client-go/testing"
 	kubeadmutil "k8s.io/kubernetes/cmd/kubeadm/app/util"
 )
 

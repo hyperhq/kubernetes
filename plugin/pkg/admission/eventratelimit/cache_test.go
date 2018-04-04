@@ -21,7 +21,7 @@ import (
 
 	"github.com/hashicorp/golang-lru"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 )
 
 func TestSingleCache(t *testing.T) {

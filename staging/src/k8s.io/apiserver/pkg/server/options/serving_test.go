@@ -45,8 +45,8 @@ import (
 	"k8s.io/apiserver/pkg/server"
 	. "k8s.io/apiserver/pkg/server"
 	utilflag "k8s.io/apiserver/pkg/util/flag"
-	"k8s.io/client-go/discovery"
-	restclient "k8s.io/client-go/rest"
+	"github.com/hyperhq/client-go/discovery"
+	restclient "github.com/hyperhq/client-go/rest"
 	"strconv"
 )
 

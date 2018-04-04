@@ -102,10 +102,10 @@ func (g *genGroup) GenerateType(c *generator.Context, t *types.Type, w io.Writer
 		"schemaGroupVersion":             c.Universe.Type(types.Name{Package: "k8s.io/apimachinery/pkg/runtime/schema", Name: "GroupVersion"}),
 		"runtimeAPIVersionInternal":      c.Universe.Variable(types.Name{Package: "k8s.io/apimachinery/pkg/runtime", Name: "APIVersionInternal"}),
 		"serializerDirectCodecFactory":   c.Universe.Type(types.Name{Package: "k8s.io/apimachinery/pkg/runtime/serializer", Name: "DirectCodecFactory"}),
-		"restConfig":                     c.Universe.Type(types.Name{Package: "k8s.io/client-go/rest", Name: "Config"}),
-		"restDefaultKubernetesUserAgent": c.Universe.Function(types.Name{Package: "k8s.io/client-go/rest", Name: "DefaultKubernetesUserAgent"}),
-		"restRESTClientInterface":        c.Universe.Type(types.Name{Package: "k8s.io/client-go/rest", Name: "Interface"}),
-		"restRESTClientFor":              c.Universe.Function(types.Name{Package: "k8s.io/client-go/rest", Name: "RESTClientFor"}),
+		"restConfig":                     c.Universe.Type(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "Config"}),
+		"restDefaultKubernetesUserAgent": c.Universe.Function(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "DefaultKubernetesUserAgent"}),
+		"restRESTClientInterface":        c.Universe.Type(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "Interface"}),
+		"restRESTClientFor":              c.Universe.Function(types.Name{Package: "github.com/hyperhq/client-go/rest", Name: "RESTClientFor"}),
 		"SchemeGroupVersion":             c.Universe.Variable(types.Name{Package: path.Vendorless(g.inputPackage), Name: "SchemeGroupVersion"}),
 	}
 	sw.Do(groupInterfaceTemplate, m)

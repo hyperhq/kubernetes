@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"k8s.io/api/core/v1"
-	clientset "k8s.io/client-go/kubernetes"
+	clientset "github.com/hyperhq/client-go/kubernetes"
 	"k8s.io/kubernetes/pkg/apis/core/helper"
 	v1helper "k8s.io/kubernetes/pkg/apis/core/v1/helper"
 
@@ -31,10 +31,10 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/types"
 
-	"k8s.io/client-go/kubernetes/scheme"
-	v1core "k8s.io/client-go/kubernetes/typed/core/v1"
-	"k8s.io/client-go/tools/record"
-	"k8s.io/client-go/util/workqueue"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	v1core "github.com/hyperhq/client-go/kubernetes/typed/core/v1"
+	"github.com/hyperhq/client-go/tools/record"
+	"github.com/hyperhq/client-go/util/workqueue"
 
 	"github.com/golang/glog"
 )

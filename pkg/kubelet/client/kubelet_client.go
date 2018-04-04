@@ -25,8 +25,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/transport"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/transport"
 	nodeutil "k8s.io/kubernetes/pkg/util/node"
 )
 

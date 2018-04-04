@@ -34,9 +34,9 @@ import (
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/apimachinery/registered"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd/api/v1"
+	"github.com/hyperhq/client-go/kubernetes/scheme"
+	"github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/tools/clientcmd/api/v1"
 )
 
 const (

@@ -29,8 +29,8 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/util/integer"
-	"k8s.io/client-go/util/jsonpath"
+	"github.com/hyperhq/client-go/util/integer"
+	"github.com/hyperhq/client-go/util/jsonpath"
 	"k8s.io/kubernetes/pkg/printers"
 
 	"vbom.ml/util/sortorder"

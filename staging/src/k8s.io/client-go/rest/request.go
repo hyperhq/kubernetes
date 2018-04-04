@@ -41,9 +41,9 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/watch"
-	restclientwatch "k8s.io/client-go/rest/watch"
-	"k8s.io/client-go/tools/metrics"
-	"k8s.io/client-go/util/flowcontrol"
+	restclientwatch "github.com/hyperhq/client-go/rest/watch"
+	"github.com/hyperhq/client-go/tools/metrics"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 )
 
 var (

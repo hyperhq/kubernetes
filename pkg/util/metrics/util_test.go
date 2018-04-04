@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/hyperhq/client-go/util/flowcontrol"
 )
 
 func TestRegisterMetricAndTrackRateLimiterUsage(t *testing.T) {

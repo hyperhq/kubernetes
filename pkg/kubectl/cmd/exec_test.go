@@ -30,9 +30,9 @@ import (
 	"github.com/spf13/cobra"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
-	"k8s.io/client-go/tools/remotecommand"
+	restclient "github.com/hyperhq/client-go/rest"
+	"github.com/hyperhq/client-go/rest/fake"
+	"github.com/hyperhq/client-go/tools/remotecommand"
 	api "k8s.io/kubernetes/pkg/apis/core"
 	cmdtesting "k8s.io/kubernetes/pkg/kubectl/cmd/testing"
 	"k8s.io/kubernetes/pkg/kubectl/util/term"

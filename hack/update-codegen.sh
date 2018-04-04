@@ -72,7 +72,7 @@ INTERNAL_DIRS_CSV=$(IFS=',';echo "${INTERNAL_DIRS[*]// /,}";IFS=$)
 # This can be called with one flag, --verify-only, so it works for both the
 # update- and verify- scripts.
 ${clientgen} --input-base="k8s.io/kubernetes/pkg/apis" --input="${INTERNAL_DIRS_CSV}" "$@"
-${clientgen} --output-base "${KUBE_ROOT}/vendor" --clientset-path="k8s.io/client-go" --clientset-name="kubernetes" --input-base="k8s.io/kubernetes/vendor/k8s.io/api" --input="${GV_DIRS_CSV}" "$@"
+${clientgen} --output-base "${KUBE_ROOT}/vendor" --clientset-path="github.com/hyperhq/client-go" --clientset-name="kubernetes" --input-base="k8s.io/kubernetes/vendor/k8s.io/api" --input="${GV_DIRS_CSV}" "$@"
 
 listergen_internal_apis=(
 $(
@@ -91,7 +91,7 @@ $(
 )
 )
 listergen_external_apis_csv=$(IFS=,; echo "${listergen_external_apis[*]}")
-${listergen} --output-base "${KUBE_ROOT}/vendor" --output-package "k8s.io/client-go/listers" --input-dirs "${listergen_external_apis_csv}" "$@"
+${listergen} --output-base "${KUBE_ROOT}/vendor" --output-package "github.com/hyperhq/client-go/listers" --input-dirs "${listergen_external_apis_csv}" "$@"
 
 informergen_internal_apis=(
 $(
@@ -119,7 +119,7 @@ informergen_external_apis_csv=$(IFS=,; echo "${informergen_external_apis[*]}")
 
 ${informergen} \
   --output-base "${KUBE_ROOT}/vendor" \
-  --output-package "k8s.io/client-go/informers" \
+  --output-package "github.com/hyperhq/client-go/informers" \
   --single-directory \
   --input-dirs "${informergen_external_apis_csv}" \
   --versioned-clientset-package k8s.io/client-go/kubernetes \
